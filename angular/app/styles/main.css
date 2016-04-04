@@ -58,7 +58,21 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
-
+.timeMsg{
+	float: right;
+    margin-right: 10px;
+}
+.timeDiv{
+	color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.commentListDiv{
+	border: 1px solid black;
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -81,3 +95,4 @@ body {
     border-bottom: 0;
   }
 }
+
