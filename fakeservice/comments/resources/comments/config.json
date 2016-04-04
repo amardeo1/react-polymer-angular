@@ -16,6 +16,14 @@
 			"required": true,
 			"id": "msg",
 			"order": 1
+		},
+		"msgPostedTime": {
+			"name": "msgPostedTime",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "msgPostedTime",
+			"order": 2
 		}
 	}
 }
