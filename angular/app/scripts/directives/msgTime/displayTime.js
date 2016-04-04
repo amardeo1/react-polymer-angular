@@ -49,6 +49,6 @@ angular.module('msgTime', [])
 		getUserFriendlyTime();
 		$interval(function(){
 			getUserFriendlyTime();
-		}, 10000);
+		}, 60000);
       }
   }});
